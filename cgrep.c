@@ -32,7 +32,6 @@ static void grep(const char *line, const char *pattern)
 int main(int argc, char *argv[])
 {
     char* line;
-	int a; 
     g_progname = argv[0];
 
     switch (argc) {
