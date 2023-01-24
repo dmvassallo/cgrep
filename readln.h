@@ -13,7 +13,6 @@
   PERFORMANCE OF THIS SOFTWARE.
 */
 
-#pragma once
 #ifndef READLN_H
 #define READLN_H
 

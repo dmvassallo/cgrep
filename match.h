@@ -19,7 +19,6 @@
 /* match.h - include this file for the match() function, encapsulating part *
  *           of std::regex_search's functionality for use from C programs   */
 
-#pragma once
 #ifndef MATCH_H
 #define MATCH_H
 

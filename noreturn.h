@@ -15,7 +15,6 @@
   PERFORMANCE OF THIS SOFTWARE.
 */
 
-#pragma once
 #ifndef NORETURN_H
 #define NORETURN_H
 
