@@ -4,3 +4,4 @@ cgrep
 *.exe
 *.o
 *.obj
+build/

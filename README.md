@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: 0BSD -->
+
 # cgrep - simple console grep
 
 This utility shows how to use C and C++ together in a program. It is a simple
@@ -20,16 +22,12 @@ The C code here is compatible with
 
 ## Building
 
-*Forthcoming.*
+You can build with CMake, or manually, on both Unix-like systems and Windows.
+If your IDE supports CMake (this includes VS Code with the recommended C++
+extensions), then you don't need to use the command-line. If you build
+manually, the specific commands vary depending on your compiler.
 
-Or you can build manually. For example, if you are using GCC, you can compile
-and link using `gcc` and `g++` commands. For a debug build:
-
-```sh
-gcc -ansi -pedantic-errors -Wall -Wextra -g -c cgrep.c
-g++ -std=c++14 -pedantic-errors -Wall -Wextra -g -c match.cpp readln.cpp
-g++ -o cgrep cgrep.o match.o readln.o
-```
+**See `building.md` for build instructions.**
 
 ## Parts of this program
 
