@@ -2,7 +2,7 @@
   cgrep.c - simple console grep - less powerful egrep-like program in C89
             This utility shows how to use C and C++ together in a program.
 
-  Copyright (c) 2015 David Vassallo and Eliah Kagan
+  Copyright (c) 2015, 2023 David Vassallo and Eliah Kagan
 
   Permission to use, copy, modify, and/or distribute this software for any
   purpose with or without fee is hereby granted.

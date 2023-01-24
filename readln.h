@@ -2,7 +2,7 @@
   readln.h - Include this file for the readln() function, which wraps the C++
              std::getline, for use in C89 (and later).
 
-  Copyright (c) 2015 David Vassallo and Eliah Kagan
+  Copyright (c) 2015, 2023 David Vassallo and Eliah Kagan
 
   Permission to use, copy, modify, and/or distribute this software for any
   purpose with or without fee is hereby granted.
