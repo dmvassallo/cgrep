@@ -1,3 +1,5 @@
+// readln.cpp - readln() function implementation (wraps std::getline)
+//
 // Copyright (c) 2015 David Vassallo and Eliah Kagan
 //
 // Permission to use, copy, modify, and/or distribute this software for any
