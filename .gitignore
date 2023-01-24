@@ -1,0 +1,7 @@
+# Compiled binaries
+a.out
+cgrep
+*.exe
+*.o
+*.obj
+build/

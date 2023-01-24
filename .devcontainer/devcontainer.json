@@ -1,0 +1,6 @@
+{
+    "name": "Debian 11 (C and C++)",
+    "image": "mcr.microsoft.com/devcontainers/cpp:0-debian-11",
+    "features": {
+    }
+}
