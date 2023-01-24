@@ -22,8 +22,8 @@
 #include <string.h>
 
 #include "match.h"
-#include "readln.h"
 #include "noreturn.h"
+#include "readln.h"
 
 static const char *g_progname = NULL; /* set in main() */
 
