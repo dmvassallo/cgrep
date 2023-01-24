@@ -18,9 +18,18 @@ The C code here is compatible with
 
 [0BSD](https://spdx.org/licenses/0BSD). See [**`LICENSE`**](LICENSE).
 
-## Compiling
+## Building
 
 *Forthcoming.*
+
+Or you can build manually. For example, if you are using GCC, you can compile
+and link using `gcc` and `g++` commands. For a debug build:
+
+```sh
+gcc -ansi -pedantic-errors -Wall -Wextra -g -c cgrep.c
+g++ -std=c++14 -pedantic-errors -Wall -Wextra -g -c match.cpp readln.cpp
+g++ -o cgrep cgrep.o match.o readln.o
+```
 
 ## Parts of this program
 
