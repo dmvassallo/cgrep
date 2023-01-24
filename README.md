@@ -33,7 +33,7 @@ manually, the specific commands vary depending on your compiler.
 
 In C:
 
-- [`cgrep.c`](egrep.c) contains the program entry point (`main` function), and
+- [`cgrep.c`](cgrep.c) contains the program entry point (`main` function), and
   basic logic to parse command-line arguments to report results and errors.
 - For other functionality, the C code calls into C++.
 
