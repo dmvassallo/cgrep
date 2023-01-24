@@ -27,7 +27,7 @@ If your IDE supports CMake (this includes VS Code with the recommended C++
 extensions), then you don't need to use the command-line. If you build
 manually, the specific commands vary depending on your compiler.
 
-**See `building.md` for build instructions.**
+**See [`building.md`](building.md) for build instructions.**
 
 ## Parts of this program
 
