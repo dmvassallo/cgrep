@@ -23,9 +23,11 @@
 extern "C" {
 #endif
 
-	char* readln();
-	void freeln(char *);
-	/* returns 1 if line contains any matches of pattern, 0 otherwise */
+/* Read a line from standard input and return a pointer to it. */
+char* readln();
+
+/* Free the memory returned by readln(). */
+void freeln(char *);
 
 #ifdef __cplusplus
 }

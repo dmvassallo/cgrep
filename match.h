@@ -26,8 +26,8 @@
 extern "C" {
 #endif
 
+/* Returns 1 if line contains any matches of pattern, 0 otherwise. */
 int match(const char* line, const char* pattern);
-    /* returns 1 if line contains any matches of pattern, 0 otherwise */
 
 #ifdef __cplusplus
 }
